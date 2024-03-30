@@ -4,7 +4,10 @@ Week 1
 Monday, March 27th
 """
 
+def hello_world(city):
+    print(f'Hello World from {city}')
+
 def main():
-    print("Hello World!")
+    hello_world('NYC')
 
 main()
